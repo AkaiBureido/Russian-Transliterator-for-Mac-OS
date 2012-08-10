@@ -31,6 +31,8 @@
 		0D9433BA15D13DFF00C75941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D9433BD15D13DFF00C75941 /* Russian Transliterator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Russian Transliterator-Prefix.pch"; sourceTree = "<group>"; };
 		0D9433BE15D13DFF00C75941 /* Russian_Transliterator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Russian_Transliterator.1; sourceTree = "<group>"; };
+		0DF0D86A15D4FF4100F49D7A /* CodeSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeSnippets.m; sourceTree = "<group>"; };
+		0DF0D86C15D501CF00F49D7A /* TranslitDictionary.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TranslitDictionary.plist; path = "../../../../Library/Developer/Xcode/DerivedData/Russian_Transliterator-ewxcmmovdifavghkiniaadhtsdpx/Build/Products/Debug/TranslitDictionary.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		0D9433B915D13DFF00C75941 /* Russian Transliterator */ = {
 			isa = PBXGroup;
 			children = (
+				0DF0D86D15D5024900F49D7A /* Resources */,
 				0D9433BA15D13DFF00C75941 /* main.m */,
 				0D9433BE15D13DFF00C75941 /* Russian_Transliterator.1 */,
 				0D9433BC15D13DFF00C75941 /* Supporting Files */,
@@ -86,6 +89,15 @@
 				0D9433BD15D13DFF00C75941 /* Russian Transliterator-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DF0D86D15D5024900F49D7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0D86C15D501CF00F49D7A /* TranslitDictionary.plist */,
+				0DF0D86A15D4FF4100F49D7A /* CodeSnippets.m */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +242,7 @@
 				0D9433C415D13DFF00C75941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
